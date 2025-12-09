@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+html,body {
+        background-color: red;
+        width: 100vw;
+
+}
+
+main {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    margin-top: 83px; 
+
+}
+
+main > h1 {
+ transform: translateY(-300px);
+ padding-left: 250px;   
+}
+
+
+
+img {
+    width: 240px;
+    height: 300px;
+    margin-right: 360px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#iemail {
+    
+}
+}
+
+    
