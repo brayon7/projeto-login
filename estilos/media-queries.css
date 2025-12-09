@@ -3,9 +3,9 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
  
 html,body {
-        background-color: red;
-        width: 100vw;
-
+    background-color: #023535;
+    width: 100vw;
+    transition: all 0.4s ease;
 }
 
 main {
@@ -13,21 +13,25 @@ main {
     width: 600px;
     margin: auto;
     margin-top: 83px; 
-
+    transition: all 0.4s ease;
 }
 
-main > h1 {
- transform: translateY(-300px);
- padding-left: 250px;   
+.form > p {
+    padding: 10px;
 }
-
-
 
 img {
     width: 240px;
     height: 300px;
     margin-right: 360px;
     border-radius: 20px 0px 0px 20px;
+}
+
+
+
+.form {
+    transform: translateY(-300px);
+    padding-left: 250px;  
 }
 
 #iemail {

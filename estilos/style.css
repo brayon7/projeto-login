@@ -64,7 +64,8 @@ img {
 }
 
 #icon1 {
-cursor: pointer;    
+cursor: pointer;  
+padding: -3px;  
 }
 
 #icon2 {
