@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: purple;
+    width: 100vw;
+}
+
+main {
+ text-align: center;
+ background-color: white;
+ margin: auto;
+ margin-top: 40px;
+margin-bottom: 20px;
+ width: 340px;
+ height: 570px;
+ border-radius: 20px;
+}
+
+main > h1 {
+    padding: 10px;
+}
+
+main > p {
+    padding: 10px;
+}
+
+main > input {
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    width: 340px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#iemail {
+    width: 200px;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 7px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#isenha {
+    width: 200px;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 7px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#icon1 {
+cursor: pointer;    
+}
+
+#icon2 {
+    cursor: pointer;
+}
+
+#entrar {
+    background-color: rgb(73, 145, 121);
+    color: white;
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid white ;
+    border-radius: 7px;
+    
+}
+
+#entrar:hover {
+    background-color: white;
+    color: rgb(73, 145, 121);
+    border: 1px solid aquamarine;
+}
+
+#esqueci {
+ background-color: white;
+ color: rgb(73, 145, 121);
+ width: 250px;
+ height: 40px;
+ border: 1px solid rgb(73, 145, 121);
+ border-radius: 7px;
+}
+
+#esqueci:hover{
+    background-color: rgb(73, 145, 121);
+    color: white;
+
+}
