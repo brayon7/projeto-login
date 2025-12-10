@@ -16,17 +16,19 @@ main {
  background-color: white;
  margin: auto;
  margin-top: 40px;
-margin-bottom: 20px;
+ margin-bottom: 20px;
  width: 340px;
  height: 570px;
  border-radius: 20px;
+transition: all 0.4s ease;
+
 }
 
 main > h1 {
     padding: 10px;
 }
 
-main > p {
+.form > p {
     padding: 10px;
 }
 
